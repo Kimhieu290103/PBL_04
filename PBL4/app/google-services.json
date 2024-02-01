@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "685797524928",
+    "firebase_url": "https://pbl4-aipt-default-rtdb.firebaseio.com",
+    "project_id": "pbl4-aipt",
+    "storage_bucket": "pbl4-aipt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685797524928:android:8be4a7cb8da3c22a857425",
+        "android_client_info": {
+          "package_name": "com.midterm.pbl4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEy_kOZG6YZzqcLFwCaXeYYdvitLJmYFQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

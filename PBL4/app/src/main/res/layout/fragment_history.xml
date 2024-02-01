@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.HistoryFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvListDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#155791"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:padding="8dp"/>
+        <ListView
+            android:id="@+id/lsfolder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="@dimen/cardview_default_radius"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+
+
+</FrameLayout>

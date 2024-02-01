@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hinhnen"
+    tools:context=".fragment.HomeFragment">
+
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:backgroundTint="#6480E3"
+        android:backgroundTintMode="add"
+        android:cursorVisible="true"
+        android:elevation="5dp"
+        android:shadowColor="@color/white"
+        android:text="START"
+        android:textSize="50dp"
+        app:cornerRadius="20dp"
+        android:layout_marginBottom="150dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="top"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chose Exercise:    "
+            android:textSize="17dp"
+            android:textColor="@color/white"/>
+        <Spinner
+            android:id="@+id/spinner_exercise"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:popupBackground="@color/white"
+            android:entries="@array/exercise"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+
+</FrameLayout>
